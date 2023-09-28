@@ -28,3 +28,44 @@ let string = "33";
 let stringToNumber = Number(string);
 console.log(stringToNumber);
 console.log(typeof stringToNumber);
+
+
+
+// ************************  Operations *************************
+
+let value2 = 3;
+let negValue = -value2;
+console.log(negValue);
+
+console.log(2+2);
+console.log(2-2);
+console.log(2*2);
+console.log(2**2);
+console.log(2/3);
+console.log(2%3);
+
+
+let str1 = "hello";
+let str2 = " ayush"
+let str3 = str1 + str2;
+console.log(str3);
+
+// do not write like this
+console.log("1" + 2);
+console.log(1 + "2");
+
+console.log("1" + 2 + 2);
+console.log(1 + 2 + "2");
+console.log(+true);
+console.log(+"");
+
+let num4, num2, num3;
+
+num4 = num2 = num3 = 2 + 2;
+
+let gameCounter = 100;
+gameCounter++;
+console.log(gameCounter);
+
+++gameCounter;
+console.log(gameCounter);
